@@ -11,8 +11,8 @@ O objetivo deste projeto é aplicar modelos de séries temporais, como ARIMA, ET
 ## Como Usar
 
 1. Clone este repositório:
-   ```bash
-   git clone https://github.com/SeuUsuario/SeuRepositorio.git
+   
+   git clone https://github.com/Ess8504/S-ries-Temporais.git
 
 2. Certifique-se de que você tem o R e as bibliotecas necessárias instaladas.
 - Lista de pacotes: `forecast`, `ggplot2`, `readxl`, `dplyr`, `tidyr`, `lubridate`, `neuralnet`, `tidyverse`.
