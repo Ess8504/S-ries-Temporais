@@ -1,0 +1,28 @@
+# Análise de Séries Temporais da Produção de Gás Natural
+
+Este repositório contém o código em R e os dados utilizados para a análise da produção de gás natural na Bahia entre 2000 e 2022.
+
+## Descrição
+
+O objetivo deste projeto é aplicar modelos de séries temporais, como ARIMA, ETS e Regressão Linear, para prever a produção futura de gás natural. A análise considera dados históricos mensais fornecidos gratuitamente no site da ANP (producao-gas-natural-m3.xls (live.com)). No meu caso, utilizei os dados de produção de gás natural no estado da Bahia entre os aos 2000 a 2022.
+
+## Instalação
+
+1. Clone este repositório:
+ git clone Ess8504/S-ries-Temporais (github.com)
+2. Certifique-se de que você tem o R e as bibliotecas necessárias instaladas.
+- Lista de pacotes: `forecast`, `ggplot2`, `readxl`, `dplyr`, `tidyr`, `lubridate`, `neuralnet`, `tidyverse`.
+
+## Como Usar
+
+1. Abra o arquivo `analise_series_temporais.R` no RStudio.
+2. Execute o código para gerar as análises e os gráficos.
+3. Os dados estão disponíveis na planilha `producao_gas_natural_m3.xlsx`.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes. 
