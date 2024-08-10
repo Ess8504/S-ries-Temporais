@@ -16,3 +16,11 @@ Thumbs.db
 
 # Ignorar planilhas geradas automaticamente
 *.xlsx
+
+# Ignorar arquivos temporários
+*.tmp
+*.log
+
+# Ignorar dados sensíveis
+data/sensitive_data.xlsx
+
