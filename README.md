@@ -1,6 +1,6 @@
 # Análise de Séries Temporais da Produção de Gás Natural
 
-Este repositório contém o código em R e os dados utilizados para a análise da produção de gás natural na Bahia entre 2000 e 2022.
+Este repositório foi criado como parte do Trabalho de Conclusão de Curso (TCC) em Engenharia de Produção na Universidade Federal da Bahia (UFBA). Ele contém o código em R e os dados utilizados para a análise da produção de gás natural na Bahia entre 2000 e 2022.
 
 ## Descrição
 
@@ -22,6 +22,18 @@ O objetivo deste projeto é aplicar modelos de séries temporais, como ARIMA, ET
 1. Abra o arquivo `analise_series_temporais.R` no RStudio.
 2. Execute o código para gerar as análises e os gráficos.
 3. Os dados estão disponíveis na planilha `producao_gas_natural_m3.xlsx`.
+
+## Exemplo de Execução
+Aqui está um exemplo de como rodar o código no RStudio para gerar a análise:
+
+# Carregue os pacotes
+lapply(pacotes, library, character.only = TRUE)
+
+# Carregue os dados
+dados <- read_xlsx("producao_gas_natural_m3.xlsx")
+
+# Execute as análises conforme descrito no código R
+Isso vai gerar gráficos de análise exploratória, decomposição da série temporal, previsões usando modelos ARIMA, ETS, e Regressão Linear, entre outros.
 
 ## Contribuição
 
