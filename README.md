@@ -4,7 +4,7 @@ Este repositório foi criado como parte do Trabalho de Conclusão de Curso (TCC)
 
 ## Descrição
 
-O objetivo deste projeto é aplicar modelos de séries temporais, como ARIMA, ETS e Regressão Linear, para prever a produção futura de gás natural. A análise considera dados históricos mensais fornecidos gratuitamente no site da ANP (producao-gas-natural-m3.xls (live.com)). No meu caso, utilizei os dados de produção de gás natural no estado da Bahia entre os aos 2000 a 2022.
+O objetivo deste projeto é aplicar modelos de séries temporais, como ARIMA, ETS e Regressão Linear, para prever a produção futura de gás natural. A análise considera dados históricos mensais fornecidos gratuitamente no site da ANP ([producao-gas-natural-m3.xls (live.com)](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-estatisticos)). No meu caso, utilizei os dados de produção de gás natural no estado da Bahia entre os anos de 2000 a 2022.
 
 ## Instalação
 
