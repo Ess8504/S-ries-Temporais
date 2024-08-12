@@ -3,8 +3,8 @@
 Este repositório foi criado como parte do Trabalho de Conclusão de Curso (TCC) em Engenharia de Produção na Universidade Federal da Bahia (UFBA). Ele contém o código em R e os dados utilizados para a análise da produção de gás natural na Bahia entre 2000 e 2022.
 
 ## Descrição
+O objetivo deste projeto é aplicar modelos de séries temporais, como ARIMA, ETS e Regressão Linear, para prever a produção futura de gás natural. A análise considera dados históricos mensais fornecidos gratuitamente no site da ANP ([producao-gas-natural-m3.xls (live.com)](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.gov.br%2Fanp%2Fpt-br%2Fcentrais-de-conteudo%2Fdados-estatisticos%2Fde%2Fppg%2Fproducao-gas-natural-m3.xls&wdOrigin=BROWSELINK)). No meu caso, utilizei os dados de produção de gás natural no estado da Bahia entre os anos de 2000 a 2022.
 
-O objetivo deste projeto é aplicar modelos de séries temporais, como ARIMA, ETS e Regressão Linear, para prever a produção futura de gás natural. A análise considera dados históricos mensais fornecidos gratuitamente no site da ANP ([producao-gas-natural-m3.xls (live.com)](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-estatisticos)). No meu caso, utilizei os dados de produção de gás natural no estado da Bahia entre os anos de 2000 a 2022.
 
 ## Instalação
 
