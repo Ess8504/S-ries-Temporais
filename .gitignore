@@ -1,26 +1,32 @@
 # Ignorar arquivos temporários do sistema operacional
-*.tmp
-*.log
-Thumbs.db
-.DS_Store
+# Estes são arquivos criados pelo sistema operacional ou por programas para armazenamento temporário de dados.
+*.tmp    # Arquivos temporários geralmente gerados por diversos aplicativos
+*.log    # Arquivos de log gerados por aplicativos e sistemas para registrar eventos
+Thumbs.db  # Arquivo gerado pelo Windows para armazenar visualizações em miniatura de imagens
+.DS_Store  # Arquivo gerado pelo macOS para armazenar atributos personalizados de pastas
 
 # Ignorar pastas específicas
-/.vscode/
-.Rhistory
+# Estas são pastas específicas que podem conter arquivos de configuração ou históricos que não precisam ser versionados.
+.vscode/    # Pasta que contém configurações do editor Visual Studio Code
+.Rhistory   # Arquivo que contém o histórico de comandos do R
 
 # Ignorar arquivos pessoais ou de configuração local
-*.env
+# Arquivos que armazenam configurações pessoais ou sensíveis, como variáveis de ambiente.
+*.env    # Arquivo que geralmente armazena variáveis de ambiente, contendo informações sensíveis
 
 # Ignorar backups e arquivos desnecessários
-*~
+# Arquivos que representam versões de backup ou temporários que não são relevantes para o controle de versão.
+*~    # Arquivos de backup geralmente criados por editores de texto
 
 # Ignorar planilhas geradas automaticamente
-*.xlsx
+# Planilhas que são geradas por scripts ou aplicativos e que não precisam ser versionadas.
+*.xlsx  # Arquivos Excel, usados para armazenar dados em formato de planilha
 
-# Ignorar arquivos temporários
-*.tmp
-*.log
+# Ignorar arquivos temporários (duplicado, para reforçar)
+# Redundância para garantir que arquivos temporários sejam ignorados.
+*.tmp  # Arquivos temporários (mesma linha do início, duplicada para garantir a exclusão)
+*.log  # Arquivos de log (também duplicado)
 
 # Ignorar dados sensíveis
-data/sensitive_data.xlsx
-
+# Exemplo de arquivo específico que contém dados sensíveis e não deve ser versionado.
+data/sensitive_data.xlsx  # Planilha que contém dados sensíveis, como informações pessoais ou confidenciais
