@@ -1,4 +1,4 @@
-# Análise de Séries Temporais da Produção de Gás Natural
+# ANÁLISE DA PREVISÃO DE DEMANDA DA PRODUÇÃO DE GÁS NATURAL NO ESTADO DA BAHIA UTILIZANDO MÉTODOS ESTATÍSTICOS DE MODELOS AUTORREGRESSIVOS
 
 Este repositório foi criado como parte do Trabalho de Conclusão de Curso (TCC) em Engenharia de Produção na Universidade Federal da Bahia (UFBA). Ele contém o código em R e os dados utilizados para a análise da produção de gás natural na Bahia entre 2000 e 2022.
 
